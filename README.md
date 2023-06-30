@@ -9,7 +9,8 @@ Start the JSON server with the following command:
 npx json-server-auth http://jsonplaceholder.typicode.com/db
 The JSON server should now be running at http://localhost:3000.
 
- #	 Task	 Endpoint	 Expected response status-code
+ 
+Task	 Endpoint	 Expected response status-code
  
 1.	Get all posts. Verify HTTP response status code and content type.	 /posts	 200 OK
 2.	Get only first 10 posts. Verify HTTP response status code. Verify that only first posts are returned.	/posts	 200 OK
